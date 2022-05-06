@@ -110,6 +110,7 @@ body{
 }
 .principal  .firma{
   padding-top: 30px;
+  color: green;
 }
 .principal .carta hr{
   width: 90%;
