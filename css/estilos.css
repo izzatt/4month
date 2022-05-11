@@ -8,9 +8,10 @@
 body{
   /*background-color: #dab9d3;*/
   background-image: url(../img/pink-hearts.jpg);
-  background-position: center;
-  background-size: cover;
+  background-position:  center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .contenedor{
   display: flex;
@@ -70,31 +71,38 @@ body{
   justify-content: center;
   min-height: 100vh;
 }
-.preguntas{
-  width: 80%;
-	background: #ffffff;
-	border-top-left-radius:10px;
-	border-top-right-radius:10px;
-	border-bottom-left-radius:10px;
-	border-bottom-right-radius:10px;
-  padding: 50px 0px 50px 0px;
-}
-.principal .preguntas .compact{
+.menu{
   width: 90%;
   margin: auto;
 }
-.principal .preguntas .compact i{
+.preguntas{
+  width: 90%;
+	background: #ffffff;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+  padding: 0px 0px 30px 0px;
+  margin: auto;
+}
+.preguntas h3{
+  padding: 10px 0px 10px 0px;
+}
+.preguntas .compact{
+  width: 90%;
+  margin: auto;
+}
+.preguntas .compact i{
   margin: 10px;
 }
-.principal .title{
+.title{
   text-align: center;
   color: #e84170;
   font-weight: bold;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  margin-bottom: 20px;
+  margin-bottom: 0px 0px 0px 0px;
 }
 .carta{
-  width: 80%;
+  width: 90%;
+  margin: auto;
   background: #ffffff;
   border-top-left-radius:10px;
   border-top-right-radius:10px;
@@ -102,22 +110,26 @@ body{
   border-bottom-right-radius:10px;
   padding: 50px 0px 50px 0px;
 }
-.principal p{
+.carta p{
   width: 90%;
   text-align: justify;
   margin: auto;
   padding-bottom: 10px;
 }
-.principal  .firma{
+.carta  .firma{
   padding-top: 30px;
   color: green;
 }
-.principal .carta hr{
+.carta hr{
   width: 90%;
   margin: auto;
+  height: 3px;
   margin-bottom: 20px;
-  color: salmon;
+  color: #e84170;
 }
-.principal .carta i{
+.carta i{
   text-align: center;
 }
+
+
+
