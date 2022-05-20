@@ -77,9 +77,9 @@ body{
 }
 .preguntas{
   width: 90%;
-	background: #ffffff;
-	border-bottom-left-radius:10px;
-	border-bottom-right-radius:10px;
+  background: #ffffff;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
   padding: 0px 0px 30px 0px;
   margin: auto;
 }
@@ -102,16 +102,16 @@ body{
 }
 .carta{
   width: 90%;
-  margin: auto;
   background: #ffffff;
   border-top-left-radius:10px;
   border-top-right-radius:10px;
   border-bottom-left-radius:10px;
   border-bottom-right-radius:10px;
   padding: 0px 0px 30px 0px;
+  margin: auto;
 }
 .carta h3{
-  padding: 10px 0px 10px 0px;
+  padding: 20px 20px;
 }
 .carta p{
   width: 90%;
